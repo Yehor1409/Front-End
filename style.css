@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+    font-size: 32px;
+    color: antiquewhite;
+    margin: 0;
+}
+
+.outer1 {
+    height: 200px;
+    background-color: aquamarine;
+    /* padding-top: 25px;  */
+    padding: 25px;  /* все 4 стороны  */
+    padding: 25px 25px;  /* верт и гориз */
+    padding: 25px 25px 25px;  /* 'верх. гориз и низ' */
+    padding: 25px 25px 25px 25px; /* все по час стрелке начиная сверху */
+    margin: 0 auto 10px;
+    width: 90%;
+    border-top: 3px solid black;    
+
+    
+
+}
+
+.inner1{
+    height: 100px;
+    background-color: blue;
+    width: 80%;
+    margin: 13px auto 0;
+}
+
